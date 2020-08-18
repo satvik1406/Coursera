@@ -47,7 +47,6 @@ body {
 #nav-list a span{
   font-size: 1.3em;
 }
-/*
 #header-nav > div > div.navbar-header > button{
   background-color: white;
   border-radius: 5px;
@@ -57,7 +56,7 @@ body {
   float : right;
   visibility: visible;
   border:3px double black;
-}*/
+}
 
 .navbar-header{
   width:1440px;
@@ -109,6 +108,6 @@ body {
   }
 }
 
-/*@media (min-width: 573px) {
+@media (min-width: 573px) {
   button { display: none; }
-}*/
+}
