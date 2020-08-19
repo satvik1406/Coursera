@@ -10,22 +10,58 @@ body {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-/* HEADER */
+#header-nav > div > div{
+  float: left;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.collapse.in {
+    display: contents;
+}
+
+.navbar-brand h1 {
+  padding-top: -3px;
+  padding-bottom: 5px;
+  color: white;
+  font-size: 1.7em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  float: left;
+}
+
+#header-nav > div > div > button{
+  float: right;
+
+}
+
 #header-nav {
   background-color: #000;
   border-radius: 0;
   border: 0;
   color: white;
+  margin: 0;
+  padding: 10px;
 }
 
-.navbar-brand h1 {
-  padding-top: 5px;
-  padding-bottom: 5px;
+#header-nav{
+  background-color: black;
   color: white;
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
+  padding: 10px;
+}
+
+#header-nav > div > div > div.navbar-brand{
+  color: white;
+}
+
+#nav-list > li{
+  text-align: center;
+  color: white;
+  font-size: 1.3em;
+}
+#nav-list > li:nth-child(1){
+  margin-top: 40px;
 }
 
 .navbar-brand a:focus, .navbar-brand a:hover {
@@ -33,49 +69,11 @@ body {
   color: #8243d6;
 }
 
-#nav-list{
-  margin-top: 10px;
-  text-align: center;
-
-}
-
-#nav-list a {
-  color: white;
-  text-align: center;
-}
-
-#nav-list a span{
-  font-size: 1.3em;
-}
-/*
-#header-nav > div > div.navbar-header > button{
-  background-color: white;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-left: 0px; 
-  margin-right: 0px;
-  float : right;
-  visibility: visible;
-  border:3px double black;
-}*/
-
-.navbar-header{
-  width:1440px;
-}
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
-  border: 1px white;
-  height: 25px;
-  width: 25px;
-  float:right;
-}
-
 #nav-list a:hover {
   color: #8243d6;
   text-decoration: none;
 }
-/* END HEADER */
 
-/* Section */
 #home {
   margin-bottom: 30px;
 }
@@ -109,6 +107,4 @@ body {
   }
 }
 
-/*@media (min-width: 573px) {
-  button { display: none; }
-}*/
+
